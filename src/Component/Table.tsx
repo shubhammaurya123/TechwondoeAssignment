@@ -94,12 +94,12 @@ const Table = () => {
         <div className="nav nav-pills navtabs">
           <li className="nav-item">
             <a className="nav-link tabborder font-style" aria-current="page" >
-              Genral
+              General
             </a>
           </li>
           <li className="nav-item  ">
             <a className="nav-link  font-style" >
-              user
+              User
             </a>
           </li>
           <li className="nav-item">
@@ -149,7 +149,7 @@ const Table = () => {
               <tr>
                 <th scope="col">Name <AiOutlineArrowDown /></th>
                 <th scope="col">Email <AiOutlineArrowDown /></th>
-                <th scope="col">Mo NO <AiOutlineArrowDown /></th>
+                <th scope="col">Mob. No. <AiOutlineArrowDown /></th>
                 <th scope="col">Last Login <AiOutlineArrowDown /></th>
                 <th scope="col"></th>
                 <th scope="col"></th>
@@ -165,8 +165,8 @@ const Table = () => {
           </table>
         </div>
         <div className="container1">
-          <button type="button" className="prvbtn table-button"  onClick={PrvPage}> &laquo; Privious</button>
-            <span className="pageRange"> {pageNumber} to 25 </span> 
+          <button type="button" className="prvbtn table-button"  onClick={PrvPage}> &laquo; Previous</button>
+            <span className="pageRange"> {pageNumber} of 25 </span> 
           <button type="button" className="nextbtn table-button"  onClick={NextPage} >Next  &raquo;</button>
 
         </div>
